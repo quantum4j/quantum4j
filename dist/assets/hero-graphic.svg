@@ -1,0 +1,33 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="rgba(160,180,255,0.34)" />
+      <stop offset="85%" stop-color="rgba(20,25,45,0)" />
+    </radialGradient>
+    <linearGradient id="strokeFade" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0%" stop-color="#8eb6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="560" fill="url(#glow2)" />
+
+  <!-- Flowing quantum circuit lines -->
+  <g stroke="url(#strokeFade)" stroke-width="2" stroke-linecap="round" opacity="0.55">
+    <path d="M80 200 Q300 80, 500 200 T820 200" />
+    <path d="M120 330 Q350 420, 550 320 T850 350" opacity="0.4"/>
+    <path d="M150 260 Q320 160, 480 260 T780 260" opacity="0.25"/>
+  </g>
+
+  <!-- Overlaid orbital Quantum4J mark -->
+  <g transform="translate(450,280) scale(1.15)" stroke="url(#strokeFade)" stroke-width="3" fill="none">
+    <ellipse rx="180" ry="90" />
+    <ellipse rx="70" ry="200" transform="rotate(90)" />
+    <ellipse rx="150" ry="70" transform="rotate(45)" />
+    <ellipse rx="150" ry="70" transform="rotate(-45)" />
+  </g>
+
+  <!-- glowing nodes -->
+  <circle cx="250" cy="260" r="7" fill="#a5c8ff" opacity="0.42"/>
+  <circle cx="670" cy="300" r="7" fill="#a5c8ff" opacity="0.35"/>
+</svg>

@@ -1,0 +1,41 @@
+<!-- architecture.svg -->
+<svg width="880" height="520" viewBox="0 0 880 520" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box {
+      fill: #0f1117;
+      stroke: #394150;
+      stroke-width: 2;
+      rx: 14;
+    }
+    .text {
+      fill: #e5e7eb;
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+  </style>
+
+  <rect x="0" y="0" width="880" height="520" fill="#0a0a0f" />
+
+  <!-- Applications -->
+  <rect class="box" x="220" y="40" width="440" height="60"/>
+  <text class="text" x="440" y="70">Java / Kotlin / Scala Applications</text>
+
+  <!-- API -->
+  <rect class="box" x="220" y="130" width="440" height="60"/>
+  <text class="text" x="440" y="160">Quantum4J API (Circuit, QASM, Execution)</text>
+
+  <!-- IR -->
+  <rect class="box" x="220" y="220" width="440" height="60"/>
+  <text class="text" x="440" y="250">Circuit IR / OpenQASM 2.0</text>
+
+  <!-- Backends -->
+  <rect class="box" x="80" y="310" width="720" height="120"/>
+  <text class="text" x="440" y="350">Statevector • IonQ Hardware • Custom Backends</text>
+
+  <!-- Arrows -->
+  <line x1="440" y1="100" x2="440" y2="130" stroke="#555" stroke-width="3"/>
+  <line x1="440" y1="190" x2="440" y2="220" stroke="#555" stroke-width="3"/>
+  <line x1="440" y1="280" x2="440" y2="310" stroke="#555" stroke-width="3"/>
+</svg>

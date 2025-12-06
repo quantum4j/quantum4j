@@ -1,0 +1,9 @@
+<!-- logo-mark.svg -->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vertical loop -->
+    <ellipse cx="60" cy="60" rx="22" ry="42"/>
+    <!-- Horizontal loop -->
+    <ellipse cx="60" cy="60" rx="42" ry="22"/>
+  </g>
+</svg>
