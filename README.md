@@ -12,14 +12,9 @@
 ⚠️ **Official Quantum4J Repository**
 
 This is the **ONLY official Quantum4J project**.  
-Any other repositories using the Quantum4J name or branding are **independent forks and not affiliated**.
-
-⚠️ Security Notice
-
-Quantum4J does NOT distribute executables (.exe), including inside ZIP archives.
+Any other repositories using the Quantum4J name or branding are **independent forks and not affiliated**. Quantum4J does NOT distribute executables (.exe), including inside ZIP archives.
 Official artifacts are ONLY published via Maven Central and this repository:
 https://github.com/quantum4j/quantum4j
-
 
 ---
 
