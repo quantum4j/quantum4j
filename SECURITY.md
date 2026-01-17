@@ -15,4 +15,10 @@
 ## Non-goals
 - Do not use security reports for general bug submissions; file those via standard issue templates.
 
+##**⚠️ Security Notice**
+Quantum4J does NOT distribute executables (.exe), including inside ZIP archives.
+Official artifacts are ONLY published via Maven Central and this repository:
+https://github.com/quantum4j/quantum4j
+
+
 
