@@ -9,6 +9,13 @@
 
 ---
 
+⚠️ **Official Quantum4J Repository**
+
+This is the **ONLY official Quantum4J project**.  
+Any other repositories using the Quantum4J name or branding are **independent forks and not affiliated**.
+
+---
+
 Quantum4J is a modern, modular, and fully JVM-native quantum computing SDK designed to bring  
 **Quantum Software Engineering (QSE)** into the Java ecosystem.
 
