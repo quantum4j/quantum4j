@@ -14,6 +14,13 @@
 This is the **ONLY official Quantum4J project**.  
 Any other repositories using the Quantum4J name or branding are **independent forks and not affiliated**.
 
+⚠️ Security Notice
+
+Quantum4J does NOT distribute executables (.exe), including inside ZIP archives.
+Official artifacts are ONLY published via Maven Central and this repository:
+https://github.com/quantum4j/quantum4j
+
+
 ---
 
 Quantum4J is a modern, modular, and fully JVM-native quantum computing SDK designed to bring  
